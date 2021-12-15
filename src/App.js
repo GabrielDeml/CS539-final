@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import YoutubeEmbed from "./youtube.js";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <h3>Professor</h3>
         <p>Kyumin Lee</p>
         <h3>Team Members</h3>
+        {/* Youtube video embed */}
+        <YoutubeEmbed embedId="Yd0H_Sd_PYo" />
         <p>Khizar Mohammed Amjed Mohamed, Gabriel Deml, Ghokulji Selvaraj, Samarth Shah, Akhil Daphara</p>
         <h3>Project Description</h3>
         <p>Autonomous vehicles are real-time domains where decisions need to be made in the order of milliseconds. Semantic segmentation takes videos captured in a self-driving environment and annotates every pixel of every frame in a video. These segmented videos are then used to calculate the driveable areas on an image. </p>
